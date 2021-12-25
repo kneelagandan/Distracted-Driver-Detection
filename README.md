@@ -1,7 +1,7 @@
 # Capstone-Project 2 - Distracted Driver Detection
 
 
-Problem Statement:
+# Problem Statement:
 
 According to the CDC motor vehicle safety division,
 one in five car accidents is caused by a
@@ -17,24 +17,32 @@ Dataset contains driver images, each taken in a car with a driver doing somethin
 (texting, eating, talking on the phone, makeup, reaching behind, etc
 Goal is to predict the likelihood of what the driver is doing in each picture.
 
-Models to be used: Using Convolutional Neural Networks and Transfer Learning (VGG16)
+# Models to be used: 
+Using Convolutional Neural Networks and Transfer Learning (VGG16)
 
-Framework: Keras version
+# Framework: 
+Keras version
 
-Loss: Categorical Cross Entropy
+# Loss: 
+Categorical Cross Entropy
 
-Metrics to be used: Accuracy, Precision, Recall, F1 score & Heatmap (Validation Train Predict Vs
+# Metrics to be used: 
+Accuracy, Precision, Recall, F1 score & Heatmap (Validation Train Predict Vs
 Validation Target)
 
-Optimizer: rmsprop
+# Optimizer:
+rmsprop
 
-Checkpoint:Model checkpoint by monitoring val_accuracy ’ and storing best weights
+# Checkpoint:
+Model checkpoint by monitoring val_accuracy ’ and storing best weights
 
-Output activation type:softmax
+# Output activation type:
+softmax
 
-Machine Learning Algorithm Used:Deep Learning – Keras
+# Machine Learning Algorithm Used:
+Deep Learning – Keras
 
-Conclusion:
+# Conclusion:
 
 This work has looked at solving the detection of distracted drivers through images obtained from the
 State Farm Distracted Driver Detection competition on Kaggle.
@@ -47,7 +55,7 @@ with the driver talking on their phone with the right hand. Overall, the model h
 effective at predicting distracted drivers, and will hopefully, one day, aid in preventing further injuries
 and deaths resulting from distracted driving.
 
-Future Scope of Work:
+# Future Scope of Work:
 
 -Using ImageDataGenerator instead of dimension converter
 -Fine tune a few of the lower layers of the VGG16 network by freezing them and retraining the
