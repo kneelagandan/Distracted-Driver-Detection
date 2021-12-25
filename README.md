@@ -1,5 +1,8 @@
 # Capstone-Project 2 - Distracted Driver Detection
 
+# Final Report
+[Capstone2_presentation.pdf](https://github.com/kneelagandan/Distracted-Driver-Detection/files/7775476/Capstone2_presentation.pdf)
+
 
 # Problem Statement:
 
@@ -62,4 +65,3 @@ and deaths resulting from distracted driving.
 remaining ones.
 -Using Restnet model for training & predicting
 
-Final Report : [Capstone2_presentation.pdf](https://github.com/kneelagandan/Distracted-Driver-Detection/files/7775476/Capstone2_presentation.pdf)
